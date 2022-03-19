@@ -68,20 +68,22 @@ function create_trust_page(labels){
                 responses['ms-time-trust-page'] = curr_elapsed_time
                 responses['time-trust-page'] = hms(curr_elapsed_time)
                 
-                create_comparisons(labels, random_integer(0,6), [
+                create_comparisons(labels, random_integer(0,7), [
                     {filter: 'blur(1px)', opacity: 1, grid_lines: false, num_lines: 10, outline: false, scale: 1, overlap: 0, title: 'Blur'},
                     {filter: '', opacity: 0.5, grid_lines: false, num_lines: 10, outline: false, scale: 1, overlap: 0, title: 'Transparency'},
                     {filter: '', opacity: 1, grid_lines: false, num_lines: 10, outline: true, scale: 1, overlap: 0, title: 'Outline'},
                     {filter: '', opacity: 1, grid_lines: true, num_lines: 20, outline: false, scale: 1, overlap: 0, title: 'Grid Lines'},
                     {filter: '', opacity: 1, grid_lines: false, num_lines: 10, outline: false, scale: 0.5, overlap: 0, title: 'Scale'},
-                    {filter: '', opacity: 1, grid_lines: false, num_lines: 10, outline: false, scale: 1, overlap: 20, title: 'Overlap'}
+                    {filter: '', opacity: 1, grid_lines: false, num_lines: 10, outline: false, scale: 1, overlap: 20, title: 'Overlap'},
+                    {filter: '', opacity: 1, grid_lines: false, num_lines: 10, outline: false, scale: 1, overlap: 0, title: 'Control'}
                 ], [
-                    `r1c${(user_num%6)+1}`, 
-                    `r1c${((user_num+1)%6)+1}`, 
-                    `r1c${((user_num+2)%6)+1}`, 
-                    `r1c${((user_num+3)%6)+1}`, 
-                    `r1c${((user_num+4)%6)+1}`, 
-                    `r1c${((user_num+5)%6)+1}`
+                    `r1c${(user_num%7)+1}`, 
+                    `r1c${((user_num+1)%7)+1}`, 
+                    `r1c${((user_num+2)%7)+1}`, 
+                    `r1c${((user_num+3)%7)+1}`, 
+                    `r1c${((user_num+4)%7)+1}`, 
+                    `r1c${((user_num+5)%7)+1}`,
+                    `r1c${((user_num+6)%7)+1}`
                 ], 0)
             }
         })))

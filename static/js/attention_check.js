@@ -76,8 +76,8 @@ function attention_check(labels){
                 var data = JSON.stringify(responses);
                 xhr.send(data);
             }
-            else //create_header(labels)
-                create_comparisons(labels, random_integer(0,7), [
+            else create_header(labels)
+                /*create_comparisons(labels, random_integer(0,7), [
                     {filter: 'blur(1px)', opacity: 1, grid_lines: false, num_lines: 10, outline: false, scale: 1, overlap: 0, title: 'Blur'},
                     {filter: '', opacity: 0.5, grid_lines: false, num_lines: 10, outline: false, scale: 1, overlap: 0, title: 'Transparency'},
                     {filter: '', opacity: 1, grid_lines: false, num_lines: 10, outline: true, scale: 1, overlap: 0, title: 'Outline'},
@@ -93,7 +93,7 @@ function attention_check(labels){
                     `r1c${((user_num+4)%7)+1}`, 
                     `r1c${((user_num+5)%7)+1}`,
                     `r1c${((user_num+6)%7)+1}`
-                ], 0)
+                ], 0)*/
             
         }))
     )

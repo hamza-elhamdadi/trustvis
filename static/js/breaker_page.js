@@ -22,8 +22,8 @@ function create_break(labels){
                 responses[`time-break-page`] = hms(curr_elapsed_time)
                 running_time = Date.now()
                 
-                //create_literacy_test(labels, 0) 
-                create_demographics_questionnaire(labels)
+                create_literacy_test(labels, 0) 
+                //create_demographics_questionnaire(labels)
             }))
     )
 }

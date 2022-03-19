@@ -1,0 +1,69 @@
+
+input[type='range'] {
+    -webkit-appearance: none;
+    width: 80%;
+}
+
+/* STYLE THE THUMB SLIDER ON CHROME */
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #000000;
+    height: 24px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+    margin-top: -10px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+/* STYLE THE TRACK ON CHROME */
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #777;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+  
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #999;
+}
+
+datalist {
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+    width: 80%;
+    font-size: 1vw;
+    align-self: center;
+    padding-bottom: 10px;
+  }
+
+.full-width datalist{
+    width: 90%;
+    font-size: 1vw;
+    padding-left: 10%
+}
+
+.ticks {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    height: 15px;
+    padding: 0px 10% 0 12%;
+}
+
+.tick {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1px;
+    background: gray;
+
+    height: 10px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}

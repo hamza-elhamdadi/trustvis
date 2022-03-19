@@ -1,0 +1,21 @@
+.vertical-radio {
+    width:100%;
+    padding-left: 10%;
+}
+
+
+.vertical-radio li {
+    text-align: left;
+}
+
+.vertical-radio li input[type=radio] {
+    float: left;
+    display: block;
+    width: 3em;
+    height: 1.4em;
+}
+
+.vertical-radio li label {
+    color: #aaa;
+    padding-right: 1em;
+}

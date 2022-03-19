@@ -1,0 +1,75 @@
+{
+    "literacy1_top":"Here is some information about different forms of cancer:",
+    "literacy1_bottom":"Approximately what percentage of people die from colon cancer?",
+    "literacy2_top":"In a magazine you see two advertisements, one on page 5 and another on page 12. Each is for a different drug for treating heart disease, and each includes a graph showing the effectiveness of the drug compared to a placebo (sugar pill).",
+    "literacy2_bottom":"Compared to the placebo, which treatment leads to a larger decrease in the percentage of patients who die?",
+    "literacy3_top":"The following figure shows the number of men and women among patients with disease X. The total number of circles is 100.",
+    "literacy3_bottom":"How many more men than women are there among 100 patients with disease X?",
+    "literacy4_top":"In the newspaper you see two advertisements, one on page 15 and another on page 17. Each is for a different treatment of psoriasis, and each includes a graph showing the effectiveness of the treatment over time.",
+    "literacy4_bottom":"Which of the treatments contributes to a larger decrease in the percentage of sick patients?",
+
+    "brightness":"Can you see the circle?",
+    "effort":"How hard was it to answer the question above?",
+    "education":"What is the highest level of school you have completed or the highest degree you have received?",
+    "gender":"What is your gender?",
+    "age":"What is your age?",
+    "distance":"How far away is your monitor from you? (Estimate the distance in inches or centimeters)",
+    "goals":"What do you think the survey is about?",
+
+    "before_literacy":"Thank you for your response.\nClick \"Continue\" when you are ready to proceed to the next stage of the survey.",
+
+    "prolific_id":"Please enter your Prolific ID: ",
+    "attention":"The colour test you are about to take part in is very simple, when asked for your favorite color you must select 'Green'.\nThis is an attention check.\n<b>Based on the text you have read above, what color have you been asked to enter?</b>",
+    "disqualification":"Incorrect response. You are disqualified from the study. If you try to retake the study you will not receive payment.",
+
+    "instructions": "Imagine that you work for an event-planning company.\nYour company is hosting an event, and you need to sell tickets.\nYou hired two separate companies to help you sell tickets.\n<b><u>What is your job?</u></b>\nBoth companies prepared a visualization to show you their ticket-selling plans.\nIt’s up to you to decide how many tickets you want to give each company to sell for you.\n<b><u>Why should you care?</u></b>\nYour award this year depends on how much money you make.\nYou should consider both <b>the price of each ticket</b> and <b>how many tickets you will be able to sell</b>.",
+
+    "instructions2": "Please type the <b>percentage of tickets</b> you would like to give to Company 1 and Company 2 in the boxes below.\nMake sure the two percentages <b>add up to 100%.</b>",
+
+    "r1": "Company 1", 
+    "r2": "Company 2",
+
+    "svg_r1c1": "x_a",
+    "svg_r1c2": "x_b",
+    
+    "para1": "static/images/high_suggest.png",
+    "para2": "static/images/low_suggest.png",
+
+    "slider1": "tokens1",
+    "slider2": "tokens2",
+
+    "appended_text_1": "You are giving ",
+    "appended_text_2":" tokens to ",
+
+    "trust1":"Based on the visualization above, on a scale from 1-7, how much do you trust Company 1 to help you sell tickets?",
+    "trust2":"Based on the visualization above, on a scale from 1-7, how much do you trust Company 2 to help you sell tickets?",
+
+    "title_page3":"What percentage of the tickets are priced between ",
+
+    "svg_r1c3": "x_c",
+    "svg_r1c4": "x_d",
+    "svg_r1c5": "x_e",
+    "svg_r1c6": "x_f",
+    "svg_r1c7": "x_g",
+
+    "perc1":"percentages_1",
+    "perc2":"percentages_2",
+    "perc3":"percentages_3",
+    "perc4":"percentages_4",
+    "perc5":"percentages_5",
+    "perc6":"percentages_6",
+
+    "comp1":"Blur",
+    "comp2":"Transparency",
+    "comp3":"Outline",
+    "comp4":"Grid Lines",
+    "comp5":"Scale",
+    "comp6":"Overlap",
+
+
+    "farewell":"Your submission has been collected! Thank you for participating!",
+
+    "redirect_text":"Click here to complete the study and return to prolific.",
+    "redirect_link":"https://app.prolific.co/submissions/complete?cc=7569112C"
+    
+}
